@@ -97,7 +97,7 @@ a:hover {
  * Site header
  */
 .site-header {
-  margin-top: 80px;
+  margin-top: 64px;
   min-height: 80px;
   position: relative;
 }
@@ -154,8 +154,8 @@ a:hover {
  }
 
  .btn:hover {
-  background-color: #537654;
-  color: #FAF3E7;
+  border-color: #ED15B0;
+  color: #ED15B0;
   text-decoration: none;
  }
 
@@ -172,9 +172,8 @@ footer {
 
 footer p {
   margin-top: 24px;
-  font-size: 16px;
-  font-family: 'Times New Roman', Times, sans-serif;
-  font-style: italic;
+  font-size: 14px;
+  font-family: 'Helvetica', sans-serif;
 }
 
 /**
