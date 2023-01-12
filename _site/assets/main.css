@@ -88,26 +88,9 @@ a:hover {
   .wrapper {
     max-width: -webkit-calc(800px - (30px));
     max-width: calc(800px - (30px));
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
-}
-
-.info {
-  font-family: "Helvetica", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  margin-top: 24px;
-}
-
-.info a, a:visited {
-  color: #537654;
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-.info a:hover {
-  color: #ED15B0;
 }
 
 /**
@@ -128,13 +111,67 @@ a:hover {
   color: #537654;
 }
 
+.site-title:hover {
+  color: #ED15B0;
+  text-decoration: none;
+}
+
+/**
+ * Info
+ */
+.info {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 24px;
+}
+
+.info a, a:visited {
+  color: #537654;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.info a:hover {
+  color: #ED15B0;
+}
+
+/**
+ * Button
+ */
+
+ .btns {
+  margin-top: 80px;
+ }
+
+ .btn {
+  border: 2px solid #537654;
+  padding: 16px 32px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 700;
+  margin-right: 8px;
+ }
+
+ .btn:hover {
+  background-color: #537654;
+  color: #FAF3E7;
+  text-decoration: none;
+ }
+
+/**
+ * Footer
+ */
 footer {
-  height: 100px;
+  border-top: 5px double #537654;
+  height: 80px;
+  width: 100%;
   position: absolute;
   bottom: 0;
 }
 
 footer p {
+  margin-top: 24px;
   font-size: 16px;
   font-family: 'Times New Roman', Times, sans-serif;
   font-style: italic;
