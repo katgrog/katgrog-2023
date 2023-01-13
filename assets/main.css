@@ -13,6 +13,7 @@
   */
  body {
    font-family: "Times New Roman", Times, serif;
+   font-size: 16px;
    color: #537654;
    background-color: #FAF3E7;
    -webkit-text-size-adjust: 100%;
@@ -24,6 +25,7 @@
    display: flex;
    min-height: 100vh;
    flex-direction: column;
+   position: relative;
  }
  
  /**
@@ -115,6 +117,18 @@
    color: #ED15B0;
    text-decoration: none;
  }
+
+ @media screen and (max-width: 800px) {
+  .site-header {
+    margin-top: 48px;
+  }
+}
+
+ @media screen and (max-width: 800px) {
+  .site-title {
+    font-size: 64px;
+  }
+}
  
  /**
   * Info
@@ -135,27 +149,41 @@
  .info a:hover {
    color: #ED15B0;
  }
+
+ .job-link {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  font-style: italic;
+ }
  
  /**
   * Button
   */
  
   .btns {
-   margin-top: 80px;
+   margin-top: 64px;
   }
  
   .btn {
+   display: inline-block;
    border: 2px solid #537654;
    padding: 16px 32px;
    font-family: 'Times New Roman', Times, serif;
    font-style: italic;
-   font-weight: 700;
    margin-right: 8px;
+   margin-top: 8px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .btn {
+      padding: 8px 16px;
+    }
   }
  
   .btn:hover {
+   background-color: #ED15B0;
    border-color: #ED15B0;
-   color: #ED15B0;
+   color: #FAF3E7;
    text-decoration: none;
   }
  
@@ -163,7 +191,7 @@
   * Footer
   */
  footer {
-   border-top: 5px double #537654;
+   border-top: 5px dotted #537654;
    height: 80px;
    width: 100%;
    position: absolute;
