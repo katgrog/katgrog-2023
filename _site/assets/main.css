@@ -82,7 +82,7 @@
   * Wrapper
   */
  .wrapper {
-   max-width: 520px;
+   max-width: 720px;
    padding-right: 100px;
    padding-left: 100px;
  }
@@ -163,9 +163,9 @@
  
   .btn {
    display: inline-block;
-   border: 2px solid #537654;
-   padding: 16px 32px;
-   font-family: 'Space Grotesk', sans-serif;
+   border: 1.5px solid #537654;
+   padding: 14px 32px;
+   font-family: "DM Serif Display", Times, serif;
    margin-right: 8px;
    margin-top: 8px;
   }
@@ -195,10 +195,10 @@
  }
  
  footer p {
-   font-family: "DM Serif Display", Times, serif;
+   font-family: "Space Grotesk", sans-serif;
    margin-top: 24px;
    font-size: 14px;
-   font-style: italic;
+   font-weight: 700;
  }
 
 /*# sourceMappingURL=main.css.map */
