@@ -12,10 +12,10 @@
   * Basic styling
   */
  body {
-   font-family: "DM Serif Display", Times, serif;
+   font-family: "Savate", sans-serif;
    font-size: 16px;
-   color: #537654;
-   background-color: #FAF3E7;
+   color: #3F3D3D;
+   background-color: #F9F7F0;
    -webkit-text-size-adjust: 100%;
    -webkit-font-feature-settings: "kern" 1;
    -moz-font-feature-settings: "kern" 1;
@@ -61,14 +61,14 @@
   * Links
   */
  a {
-   color: #537654;
+   color: #22049A;
    text-decoration: none;
  }
  a:visited {
-   color: #537654;
+   color: #3F3D3D;
  }
  a:hover {
-   color: #111;
+   color: #3F3D3D;
    text-decoration: underline;
  }
  .social-media-list a:hover {
@@ -105,14 +105,15 @@
  }
  
  .site-title {
-   font-size: 84px;
+   font-size: 88px;
+   font-weight: 600;
  }
  .site-title, .site-title:visited {
-   color: #537654;
+   color: #22049A;
  }
  
  .site-title:hover {
-   color: #ED15B0;
+   color: #22049A;
    text-decoration: none;
  }
 
@@ -132,9 +133,9 @@
   * Info
   */
  .info {
-   font-family: "Space Grotesk", sans-serif;
+   font-family: "Asta Sans", sans-serif;
    font-size: 18px;
-   line-height: 24px;
+   line-height: 28px;
    margin-top: 24px;
  }
 
@@ -145,16 +146,17 @@
 }
  
  .info a, a:visited {
-   color: #537654;
-   font-weight: 600;
+   color: #22049A;
+   font-weight: 700;
    text-decoration: underline;
  }
  
  .info a:hover {
-   color: #ED15B0;
+   color: #22049A;
  }
 
  .job-link {
+  color: #22049A;
   font-size: 17px;
   font-weight: 700;
  }
@@ -162,6 +164,7 @@
  @media screen and (max-width: 800px) {
   .job-link {
     font-size: 16px;
+    color: #22049A;
   }
 }
  
@@ -175,12 +178,15 @@
  
   .btn {
    display: inline-block;
-   border: 1.5px solid #537654;
+   border: 1.5px solid #22049A;
    padding: 14px 32px;
-   font-family: "DM Serif Display", Times, serif;
+   font-family: "Savate", sans-serif;
+   font-weight: bold;
    margin-right: 8px;
    margin-top: 8px;
+   font-family: "Asta Sans", sans-serif;
   }
+
 
   @media screen and (max-width: 800px) {
     .btn {
@@ -189,8 +195,8 @@
   }
  
   .btn:hover {
-   background-color: #ED15B0;
-   border-color: #ED15B0;
+   background-color: #22049A;
+   border-color: #22049A;
    color: #FAF3E7;
    text-decoration: none;
   }
@@ -206,7 +212,7 @@
  }
  
  footer p {
-   font-family: "Space Grotesk", sans-serif;
+   font-family: "Asta Sans", sans-serif;
    margin-top: 24px;
    font-size: 14px;
    font-weight: 700;
