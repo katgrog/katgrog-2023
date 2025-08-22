@@ -101,6 +101,7 @@
  .site-header {
    margin-top: 64px;
    min-height: 80px;
+   line-height: 1;
    position: relative;
  }
  
@@ -208,7 +209,7 @@
    height: 80px;
    width: 100%;
    position: absolute;
-   bottom: 0;
+   bottom: 5%;
  }
  
  footer p {
