@@ -12,20 +12,21 @@
   * Basic styling
   */
  body {
+   background-color: #F9F7F0;
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   position: relative;
+
    font-family: "Savate", sans-serif;
    font-size: 16px;
    color: #3F3D3D;
-   background-color: #F9F7F0;
    -webkit-text-size-adjust: 100%;
    -webkit-font-feature-settings: "kern" 1;
    -moz-font-feature-settings: "kern" 1;
    -o-font-feature-settings: "kern" 1;
    font-feature-settings: "kern" 1;
    font-kerning: normal;
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
-   position: relative;
  }
  
  /**
@@ -35,7 +36,7 @@
  p, blockquote, pre,
  ul, ol, dl, figure,
  .highlight {
-   margin-bottom: 15px;
+   margin-bottom: 16px;
  }
  
  /**
@@ -45,17 +46,11 @@
    display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
  }
  
+
  /**
   * Images
   */
- 
- 
- /**
-  * Headings
-  */
- h1, h2, h3, h4, h5, h6 {
-   font-weight: 400;
- }
+
  
  /**
   * Links
@@ -69,12 +64,6 @@
  }
  a:hover {
    color: #3F3D3D;
-   text-decoration: underline;
- }
- .social-media-list a:hover {
-   text-decoration: none;
- }
- .social-media-list a:hover .username {
    text-decoration: underline;
  }
  
@@ -100,13 +89,12 @@
   */
  .site-header {
    margin-top: 64px;
-   min-height: 80px;
    line-height: 1;
    position: relative;
  }
  
  .site-title {
-   font-size: 88px;
+   font-size: 80px;
    font-weight: 600;
  }
  .site-title, .site-title:visited {
@@ -156,14 +144,8 @@
    color: #22049A;
  }
 
- .job-link {
-  color: #22049A;
-  font-size: 17px;
-  font-weight: 700;
- }
-
  @media screen and (max-width: 800px) {
-  .job-link {
+  .info a {
     font-size: 16px;
     color: #22049A;
   }
@@ -179,13 +161,12 @@
  
   .btn {
    display: inline-block;
+   padding: 16px 32px;
    border: 1.5px solid #22049A;
-   padding: 14px 32px;
-   font-family: "Savate", sans-serif;
-   font-weight: bold;
    margin-right: 8px;
    margin-top: 8px;
    font-family: "Asta Sans", sans-serif;
+   font-weight: bold;
   }
 
 
@@ -206,8 +187,6 @@
   * Footer
   */
  footer {
-   height: 80px;
-   width: 100%;
    position: absolute;
    bottom: 5%;
  }
